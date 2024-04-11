@@ -1,6 +1,6 @@
 name: record
 description: Audio recorder from microphone to file or stream with multiple codecs, bit rate and sampling rate options.
-version: 5.0.5
+version: 5.0.6
 homepage: https://github.com/llfbandit/record/tree/master/record
 
 environment:
@@ -16,27 +16,27 @@ dependencies:
 
   record_web:
     git:
-      url: git@github.com:CandyLabsIT/record.git
+      url: https://github.com/CandyLabsIT/record.git
       ref: fork-master
       path: record_web
   record_windows:
     git:
-      url: git@github.com:CandyLabsIT/record.git
+      url: https://github.com/CandyLabsIT/record.git
       ref: fork-master
       path: record_windows
   record_linux:
     git:
-      url: git@github.com:CandyLabsIT/record.git
+      url: https://github.com/CandyLabsIT/record.git
       ref: fork-master
       path: record_linux
   record_android:
     git:
-      url: git@github.com:CandyLabsIT/record.git
+      url: https://github.com/CandyLabsIT/record.git
       ref: fork-master
       path: record_android
   record_darwin:
     git:
-      url: git@github.com:CandyLabsIT/record.git
+      url: https://github.com/CandyLabsIT/record.git
       ref: fork-master
       path: record_darwin
 
